@@ -1,3 +1,99 @@
-.a {
-  background-color: aqua;
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1%;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+a {
+  text-decoration: none;
+}
+
+.template-mobile {
+  background-color: #f6f7f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.template-mobile .div {
+  background-color: var(--neutralsn-10);
+  overflow: hidden;
+  width: 375px;
+  height: 5410px;
+  position: relative;
+}
+
+.template-mobile .overlap {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/6FA0nYZB/img/header-background-mobile.svg);
+  background-size: 100% 100%;
+}
+
+.template-mobile .header-shapes-mobile {
+  position: absolute;
+  width: 375px;
+  height: 587px;
+  top: 104px;
+  left: 0;
+}
+
+.template-mobile .headline {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 114px 24px;
+  position: absolute;
+  top: 92px;
+  left: 0;
+}
+
+.template-mobile .primary-text {
+  position: relative;
+  width: 327px;
+  height: 150px;
+  margin-top: -1px;
+  font-family: var(--header-2-font-family);
+  font-weight: var(--header-2-font-weight);
+  color: var(--neutralsn-800);
+  font-size: var(--header-2-font-size);
+  letter-spacing: var(--header-2-letter-spacing);
+  line-height: var(--header-2-line-height);
+  font-style: var(--header-2-font-style);
+}
+
+.template-mobile .text-wrapper {
+  position: relative;
+  width: 327px;
+  height: 146px;
+  font-family: var(--body-2-font-family);
+  font-weight: var(--body-2-font-weight);
+  color: var(--neutralsn-600);
+  font-size: var(--body-2-font-size);
+  letter-spacing: var(--body-2-letter-spacing);
+  line-height: var(--body-2-line-height);
+  font-style: var(--body-2-font-style);
+}
+
+.template-mobile .social-media {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
 }
