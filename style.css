@@ -1244,13 +1244,13 @@
     left: 0;
   }
   
-  .template-mobile .overlap-group {
+  /* .template-mobile .overlap-group {
     position: absolute;
     width: 801px;
     height: 1904px;
     top: 3506px;
     left: -213px;
-  }
+  } */
   
   .template-mobile .base-about-my-self {
     position: absolute;
@@ -1659,32 +1659,34 @@
     position: absolute;
     top: 718px;
     left: 0;
-  }
+    width: 100%;
+}
   
-  .template-mobile .card-works {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    padding: 16px;
-    position: relative;
-    flex: 0 0 auto;
-    background-color: var(--neutralsn-0);
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: var(--neutralsn-40);
-  }
+.template-mobile .card-works {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--neutralsn-0);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--neutralsn-40);
+  width: 100%;
+}
   
-  .template-mobile .snapshoot-portfolio {
-    position: relative;
-    width: 295px;
-    height: 220px;
-    border-radius: 8px;
-    background-image: url(https://c.animaapp.com/6FA0nYZB/img/snapshoot-portfolio-3@2x.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
+.template-mobile .snapshoot-portfolio  {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  background-image: url(https://c.animaapp.com/6FA0nYZB/img/snapshoot-portfolio-3@2x.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
   
   .template-mobile .project-title {
     position: relative;
@@ -1824,8 +1826,8 @@
   .template-mobile .snapshoot-portfolio-2 {
     background-image: url(https://c.animaapp.com/6FA0nYZB/img/snapshoot-portfolio-2@2x.png);
     position: relative;
-    width: 295px;
-    height: 220px;
+    width: 100%;
+    height: 320px;
     border-radius: 8px;
     background-size: cover;
     background-position: 50% 50%;
@@ -1923,8 +1925,8 @@
   .template-mobile .snapshoot-portfolio-3 {
     background-image: url(https://c.animaapp.com/6FA0nYZB/img/snapshoot-portfolio-1@2x.png);
     position: relative;
-    width: 295px;
-    height: 220px;
+    width: 100%;
+    height: 320px;
     border-radius: 8px;
     background-size: cover;
     background-position: 50% 50%;
@@ -1933,8 +1935,8 @@
   .template-mobile .snapshoot-portfolio-4 {
     background-image: url(https://c.animaapp.com/6FA0nYZB/img/snapshoot-portfolio@2x.png);
     position: relative;
-    width: 295px;
-    height: 220px;
+    width: 100%;
+    height: 320px;
     border-radius: 8px;
     background-size: cover;
     background-position: 50% 50%;
